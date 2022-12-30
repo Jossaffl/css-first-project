@@ -56,3 +56,25 @@ button{
     width: 70px;
     border-radius: 8px;
 }
+
+.monkeys img{
+    height: 250px;
+    width: 250px;
+    border: solid blue;
+    border-radius: 8px;
+}
+
+.monkey-container{
+    display: flex;
+    justify-content: center;
+    gap:35px
+}
+
+.monkeys{
+    max-width: 251px;
+}
+
+.middle-content{
+    text-align: center;
+    padding: 50px;
+}
