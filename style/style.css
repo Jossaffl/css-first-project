@@ -78,3 +78,64 @@ button{
     text-align: center;
     padding: 50px;
 }
+
+.quote{
+    font-size: 25px;
+    font-style: italic;
+    
+
+}
+
+.quote, 
+.quoted-person{
+    max-width: 500px;
+}
+.quoted-person{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 160px;
+    
+
+}
+
+.upper-bottom{
+    background-color: lightgray;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:100px
+}
+
+body{
+    width: 100%;
+
+}
+.bottom-content{
+    display:flex;
+    flex-direction: column;
+}
+.lower-bottom{
+    display:flex;
+    color:white;
+    background-color:lightskyblue;
+    justify-content: space-around;
+    align-items: center;
+    max-width: fit-content;
+    margin: 80px;
+    gap: 200px;
+    padding: 20px;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    color: white;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    padding-top: 0;
+}
